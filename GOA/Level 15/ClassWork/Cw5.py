@@ -1,0 +1,6 @@
+wins=int(input("How many times u won?: "))
+print("1 win is 1 point if u won 1 time u have 1 point")
+ties=int(input("How many times u ended with tie?: "))
+print("One tie means 0.5 Point if u tied 2 times u have 1 point etc")
+loses=int(input("How many times u lost?: "))
+print("Lose means 0 point")
