@@ -1,0 +1,32 @@
+h1{
+font-family: cursive;
+
+}
+
+h2{
+text-transform: capitalize;
+}
+h3{
+text-decoration: underline;
+}
+h4{
+text-shadow: 15px 10px 2px red;
+}
+h5{
+text-decoration:dashed
+}
+h6{
+    text-decoration: line-through
+}
+h1{
+    font-family: cursive;
+}
+h2{
+    text-transform: capitalize;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    text-shadow: 15px 10px 2px red;
+}
