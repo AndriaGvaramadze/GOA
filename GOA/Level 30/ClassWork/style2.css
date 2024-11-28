@@ -1,0 +1,23 @@
+body{
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+background-image: url(Flag_of_Georgia.svg.png);
+background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+
+
+
+div {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+
+
+}
+    
+    
+    
