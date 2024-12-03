@@ -1,0 +1,14 @@
+table{
+    width: 100px;
+    border-collapse: collapse;
+}
+tr{
+    background-color: cadetblue;
+}
+th,td{
+    text-align: center;
+    color: white;
+    font-size: 1mm;
+    font-family: cursive;
+    padding: 10px;
+}
