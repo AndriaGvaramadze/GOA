@@ -1,0 +1,36 @@
+/* 1. div ელემენტი, სადაც მაუსზე გადასვლისას ფერი იცვლება */
+.color-change {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    transition: background-color 0.5s ease;
+}
+
+.color-change:hover {
+    background-color: #ff6347; /* ფერის ცვლილება */
+}
+
+/* 2. div ელემენტი, სადაც მაუსზე გადასვლისას ზომა იცვლება */
+.size-change {
+    width: 150px;
+    height: 150px;
+    background-color: #87CEEB;
+    transition: all 0.4s ease;
+}
+
+.size-change:hover {
+    width: 250px;
+    height: 250px; /* ზომის ცვლილება */
+}
+
+/* 3. div ელემენტი, სადაც მაუსზე გადასვლისას ჩრდილი ემატება */
+.shadow-effect {
+    width: 200px;
+    height: 200px;
+    background-color: #FFEB3B;
+    transition: box-shadow 0.3s ease;
+}
+
+.shadow-effect:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3); /* ჩრდილის დამატება */
+}

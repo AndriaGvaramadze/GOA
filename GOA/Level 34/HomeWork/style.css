@@ -1,0 +1,26 @@
+/* 1. div ელემენტი, სადაც მაუსზე გადასვლისას ფერი იცვლება */
+.color-change {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+.color-change:hover {
+    background-color: #ff6347; /* ფერის ცვლილება */
+}
+
+/* 2. div ელემენტი, სადაც მაუსზე გადასვლისას ზომა იცვლება */
+.size-change {
+    width: 200px;
+    height: 200px;
+    background-color: #87CEEB;
+    transition: all 0.3s ease;
+}
+
+.size-change:hover {
+    width: 250px;
+    height: 250px; /* ზომის ცვლილება */
+}
+
+/* 3. img ელემენტი, სადაც მაუ
