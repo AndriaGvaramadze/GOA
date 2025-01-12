@@ -1,0 +1,81 @@
+/* Root variable-სთან მუშაობა */
+:root {
+    --main-color: #3498db;
+    --background-color: #f4f4f4;
+    --font-size: 18px;
+    --letter-spacing: 2px;
+    --padding: 20px;
+    --margin: 15px;
+    --position: absolute;
+    --transform: rotate(10deg);
+    --transition: transform 0.3s ease;
+    --flex-direction: column;
+}
+
+/* საერთო სტილი */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* პირველი ელემენტი */
+.element1 {
+    color: var(--main-color);
+    background-color: #ffffff;
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    position: var(--position);
+    transform: var(--transform);
+    transition: var(--transition);
+}
+
+.element1:hover {
+    transform: rotate(45deg);
+}
+
+/* მეორე ელემენტი */
+.element2 {
+    color: #ffffff;
+    background-color: #2ecc71;
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: flex;
+    flex-direction: var(--flex-direction);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
+
+.element2:hover {
+    background-color: #27ae60;
+    transform: scale(1.1);
+}
+
+/* მესამე ელემენტი */
+.element3 {
+    color: #ffffff;
+    background-color: #e74c3c;
+    font-size: var(--font-size);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: grid;
+    place-items: center;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.element3:hover {
+    background-color: #c0392b;
+    transform: scale(1.2);
+}

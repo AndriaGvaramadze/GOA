@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+/* ბმული */
+.transform-link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3498db;
+    padding: 10px 20px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.transform-link:hover {
+    transform: rotate(30deg);
+    font-size: 24px;
+}
+
+/* გამოსახულება */
+.transform-image {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.transform-image:hover {
+    transform: scale(1.2);
+}
