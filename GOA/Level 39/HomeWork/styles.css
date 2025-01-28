@@ -1,0 +1,98 @@
+header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.static {
+    position: static;
+    padding: 50px;
+}
+
+.relative {
+    position: relative;
+    padding: 50px;
+}
+
+.relative-box {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.absolute {
+    position: relative;
+    padding: 50px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: #ffeb3b;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.sticky {
+    padding: 50px;
+}
+
+.sticky p {
+    position: sticky;
+    top: 10px;
+    background-color: #e91e63;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}

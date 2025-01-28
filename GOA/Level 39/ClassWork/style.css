@@ -1,0 +1,99 @@
+/* ძირითადი სტილები */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ნავიგაციის მენიუ */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* პირველი სექცია (static) */
+section.static {
+    position: static;
+    padding: 80px 20px;
+    background-color: #f0f8ff;
+}
+
+/* მეორე სექცია (relative) */
+section.relative {
+    position: relative;
+    padding: 80px 20px;
+    background-color: #d0f0c0;
+}
+
+.relative-block {
+    position: relative;
+    left: 30px;
+    top: 50px;
+    background-color: #ff7f7f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* მესამე სექცია (absolute) */
+section.absolute {
+    position: relative;
+    padding: 80px 20px;
+    background-color: #fff5e1;
+}
+
+.absolute-block {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    background-color: #ffb6c1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* მეოთხე სექცია (sticky) */
+section.sticky {
+    position: relative;
+    padding: 80px 20px;
+    background-color: #e0e0e0;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer (fixed at bottom) */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 99;
+}
