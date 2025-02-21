@@ -1,0 +1,1 @@
+#jer ar gvaqvs 31 jgufs naswavli java scripti da sashinao davalebas ver gavaketeb
