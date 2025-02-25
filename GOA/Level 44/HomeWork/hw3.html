@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+</head>
+<body>
+
+    <h1>Countdown Example</h1>
+    <button onclick="countdown()">Start Countdown</button>
+
+    <script>
+        function countdown() {
+            for (let i = 10; i >= 0; i--) {
+                let message = "The world will be destroyed in " + i + " seconds";
+                alert(message);
+                console.log(message);
+            }
+        }
+    </script>
+
+</body>
+</html>
